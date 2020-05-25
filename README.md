@@ -1,9 +1,7 @@
 # The Natours Project 
 ## CSS animations, advanced responsive design techniques, Sass, CSS architecture, fundamental CSS concepts
 
-### build beautiful and carefully designed project.
-
-After finishing this course, you will:
+### Build beautiful and carefully designed project:
 
 > most modern and advanced CSS properties and techniques;
 
