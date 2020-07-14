@@ -91,21 +91,27 @@
 		--webkit-box-decoration-break: clone;
 
 		&--1 {
-			background-image: linear-gradient(to right bottom,
-					rgba($color-secondary-light, .85),
-					rgba($color-secondary-dark, .85));
+			background-image: linear-gradient(
+				to right bottom,
+				rgba($color-secondary-light, .85),
+				rgba($color-secondary-dark, .85)
+			);
 		}
 
 		&--2 {
-			background-image: linear-gradient(to right bottom,
-					rgba($color-primary-light, .85),
-					rgba($color-primary-dark, .85));
+			background-image: linear-gradient(
+				to right bottom,
+				rgba($color-primary-light, .85),
+				rgba($color-primary-dark, .85)
+			);
 		}
 
 		&--3 {
-			background-image: linear-gradient(to right bottom,
-					rgba($color-tertiary-light, .85),
-					rgba($color-tertiary-dark, .85));
+			background-image: linear-gradient(
+				to right bottom,
+				rgba($color-tertiary-light, .85),
+				rgba($color-tertiary-dark, .85)
+			);
 		}
 	}
 
@@ -156,7 +162,7 @@
 	}
 
 	/* @include respond (tab-port)  */
-	@media only screen and (max-width: 56.25em) {
+	@media only screen and (max-width: 56.25em), only screen and(hover:none) {
 		height: auto;
 		border-radius: 3px;
 		background-color: $color-white;
